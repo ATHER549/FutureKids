@@ -1,0 +1,164 @@
+<!-- header
+
+<header>
+  <!-- navbar -->
+  <!-- <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+    <div class="container">
+      <!-- navbar-brand -->
+      <a class="navbar-brand" href="#">Future Kids</a>
+
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarTogglerDemo02"
+        aria-controls="navbarTogglerDemo02"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About US</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav> -->
+
+  <!-- mask -->
+  <!-- <div class="view intro" style="" id="intro">
+    <div class="full-bg-img">
+      <div class="mask rgba-purple-light flex-center">
+        <div class="container text-center white-text wow fadeInUp">
+          <h2>This Navbar is fixed and transparent</h2>
+          <br>
+          <h5>It will always stay visible on the top, even when you scroll down</h5>
+          <p>Navbar's background will switch from transparent to solid color while scrolling down</p>
+          <br>
+          <p>Full page intro with background image will be always displayed in full screen mode, regardless of
+            device </p>
+        </div>
+      </div>
+    </div>
+  </div> -->
+  <div class="p-5 text-center bg-image" id="intro">
+    <div class="mask" style="background-color: rgb(0, 0, 0, 0.6);">
+      <div class="d-flex justify-content-center align-items-center h-100">
+        <div class="container text-center white-text wow fadeInUp">
+          <h2>This Navbar is fixed and transparent</h2>
+          <br>
+          <h5>It will always stay visible on the top, even when you scroll down</h5>
+          <p>Navbar's background will switch from transparent to solid color while scrolling down</p>
+          <br>
+          <p>Full page intro with background image will be always displayed in full screen mode, regardless of
+            device </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</header> -->
+
+
+<!-- main-content -->
+<!-- <div class="container-fluid" id="home-div1">
+  <div class="row">
+    <div class="col-12">
+      <a href="../assets/pdf/4 day's Coding Workshop-January - 2021 - India.pdf"
+        >PDF</a
+      >
+    </div>
+    <div class="col-12"></div>
+    <div class="col-12"></div>
+  </div>
+</div> -->
+
+<!-- footer -->
+<footer id="footer" class="footer text-center">
+  Copyright Future Kids © 2020. All Rights Reserved
+</footer>
+
+
+
+
+
+
+
+
+<!-- css -->
+
+@import url('https://fonts.googleapis.com/css2?family=Langar&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+header, #intro {
+  height: 100%;
+}
+
+.navbar {
+  background-color: #ecedefb0;
+  background-color: #cccdd39f;
+  background-color: transparent;
+}
+
+.navbar-brand {
+  font-size: xxx-large;
+  font-family: 'Langar', cursive;
+  color: rgb(16, 90, 90);
+}
+
+.navbar-brand:hover {
+  color: rgb(16, 80, 80);
+}
+
+.nav-item {
+  padding: 0 20px;
+}
+
+.navbar-light .nav-link {
+  color: darkslategray;
+  font-size: large;
+  font-weight: 700;
+}
+
+.top-nav-collapse {
+  background-color: #cccdd39f;
+}
+
+#intro {
+  background: url("../assets/images/2.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+#footer {
+  height: 8vh;
+  background-color: black;
+  color: white;
+  padding-top: 10px;
+  font-size: large;
+  margin-top: 50px;
+}
+
+
+/* media-queries */
+
+@media only screen and (max-width: 768px) {
+  .navbar {
+    background-color: #cccdd39f;
+  }
+}

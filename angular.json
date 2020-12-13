@@ -124,5 +124,8 @@
       }
     }
   },
-  "defaultProject": "FutureKids"
+  "defaultProject": "FutureKids",
+  "cli": {
+    "analytics": "300711bf-27eb-44c0-af99-184fbefc868a"
+  }
 }
