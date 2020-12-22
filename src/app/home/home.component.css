@@ -1,27 +1,32 @@
-@import url('https://fonts.googleapis.com/css2?family=Langar&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Langar&display=swap");
 
-.navbar-brand {
-  font-size: xxx-large;
-  font-family: 'Langar', cursive;
-  color: rgb(21, 100, 100);
+#carousel-img-1 img,
+#carousel-img-2 img {
+  filter: brightness(50%);
 }
 
-.navbar-brand:hover {
-  color: rgb(16, 90, 90);
+.div-1 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #92a8d1;
 }
 
-.nav-item .nav-link {
-  padding: 0 15px;
-  color: seagreen;
+#scratch-heading {
+  color: #034f84;
+  font-weight: bold;
+}
+
+.div-1 p {
   font-size: large;
-  font-weight: 700;
 }
 
-.nav-item .nav-link:hover {
-  color: rgb(60, 150, 100);
+.img-1 img {
+  height: 220px;
 }
 
-
+/* .scrollToTop i {
+  display: block;
+} */
 
 /* media-queries */
 
