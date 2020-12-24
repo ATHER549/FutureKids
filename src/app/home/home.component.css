@@ -11,7 +11,13 @@
   background-color: #92a8d1;
 }
 
-#scratch-heading {
+.row-2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#scratch-heading,
+#mip-heading {
   color: #034f84;
   font-weight: bold;
 }
@@ -21,15 +27,25 @@
 }
 
 .img-1 img {
-  height: 220px;
+  height: 250px;
 }
 
-/* .scrollToTop i {
-  display: block;
-} */
+.img-2 img {
+  height: 236px;
+}
 
 /* media-queries */
 
-/* @media (max-width: 767px) {
+@media (min-width: 768px) {
+  .img-2 img {
+    float: right;
+  }
+}
 
-} */
+@media (max-width: 767.98px) {
+  .img-2 {
+    text-align: center;
+  }
+}
+
+/* media-queries */
