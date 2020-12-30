@@ -1,7 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Langar&display=swap");
 
 #carousel-img-1 img,
-#carousel-img-2 img {
+#carousel-img-2 img,
+#carousel-img-3 img {
   filter: brightness(50%);
 }
 
