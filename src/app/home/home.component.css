@@ -18,17 +18,17 @@
 }
 
 #scratch-heading,
-#mip-heading {
+#mit-heading {
   color: #034f84;
   font-weight: bold;
 }
 
-.div-1 p {
-  font-size: large;
+p {
+  font-size: x-large;
 }
 
 .img-1 img {
-  height: 250px;
+  height: 230px;
 }
 
 .img-2 img {
@@ -38,8 +38,8 @@
 /* media-queries */
 
 @media (min-width: 768px) {
-  .img-2 img {
-    float: right;
+  .img-2 {
+    text-align: center;
   }
 }
 
