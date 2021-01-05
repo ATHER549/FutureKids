@@ -45,17 +45,10 @@ p {
 /* @mdeia (max-width: 991.98px) {
 } */
 
-@media (min-width: 768px) {
-  .img-2 {
-    text-align: center;
-  }
-}
+/* @media (min-width: 768px) {
+} */
 
 @media (max-width: 767.98px) {
-  .img-2 {
-    text-align: center;
-  }
-
   p {
     font-size: large;
   }
