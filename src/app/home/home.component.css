@@ -12,13 +12,14 @@
   background-color: #92a8d1;
 }
 
-.row-2 {
+/* .row-2 {
   margin-top: 20px;
   margin-bottom: 20px;
-}
+} */
 
 #scratch-heading,
-#mit-heading {
+#mit-heading,
+#python-heading {
   color: #034f84;
   font-weight: bold;
 }
@@ -35,7 +36,14 @@ p {
   height: 236px;
 }
 
+.img-3 img {
+  height: 250px;
+}
+
 /* media-queries */
+
+/* @mdeia (max-width: 991.98px) {
+} */
 
 @media (min-width: 768px) {
   .img-2 {
@@ -46,6 +54,10 @@ p {
 @media (max-width: 767.98px) {
   .img-2 {
     text-align: center;
+  }
+
+  p {
+    font-size: large;
   }
 }
 
