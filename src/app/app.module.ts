@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { ContactusComponent } from './contactus/contactus.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { HomeComponent } from './home/home.component';
+import { GalleryComponent } from './gallery/gallery.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ContactusComponent,
     PageNotFoundComponent,
-    HomeComponent
+    HomeComponent,
+    GalleryComponent
   ],
   imports: [
     BrowserModule,
